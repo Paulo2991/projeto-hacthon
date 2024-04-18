@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+}
+
+.login-container{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: #fff;
+    width: 60%;
+    max-width: 400px;
+
+
+}
+
+.login {
+    text-align: center; /* Adicionado para centralizar horizontalmente */
+    margin-bottom: 20px; /* Adicionado espaço abaixo do título */
+}
+
+
+
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Alterado para block */
+    margin: 20px auto 0; /* Ajustado para centralizar verticalmente e adicionar espaço acima */
+}
+
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
