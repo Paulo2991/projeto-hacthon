@@ -2,13 +2,18 @@
   margin-bottom: 10px; /* Adiciona espaçamento abaixo do grupo de botões */
 }
 
+body {
+  background-color: black; /* Define a cor de fundo do body como preto */
+  color: #ffc107; /* Amarelo - cor do destaque */
+
+}
 .btn {
   border-radius: 10px; /* Torna os botões arredondados */
   margin-right: 10px; /* Adiciona espaçamento entre os botões */
   border: none;
-  padding: 10px 20px; /* Aumenta o preenchimento interno */
-  background: linear-gradient(to bottom, #0f0feb, #261440);
-  color: white; /* Define a cor do texto como branco */
+  padding: 10px 10px; /* Aumenta o preenchimento interno */
+  background: linear-gradient(to bottom, #0202b7, #290b54);
+  color: #ffc107; /* Amarelo - cor do destaque */
   font-weight: bold; /* Torna o texto mais gordinho */
   text-decoration: none; /* Remove o sublinhado padrão */
 }
@@ -22,12 +27,25 @@
   margin-right: 0;
 }
 
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade aqui */
+}
+
 
 
 
 /* Estilo para o link do menu */
 .navbar-nav .nav-item .nav-link {
-  color: #fff; /* Cor padrão do texto */
+  color: #fff; /* Amarelo - cor do destaque */
   transition: color 0.3s; /* Efeito de transição suave na cor */
 }
 
@@ -41,7 +59,7 @@
 /* Adicione este estilo no seu arquivo CSS ou dentro da tag <style> no cabeçalho do HTML */
 .navbar-nav .active {
   background-color: #001540;; /* Cor de destaque do item de menu ativo */
-  color: #fff; /* Cor do texto no item de menu ativo */
+  color: #fff; /* Amarelo - cor do destaque */
   border-radius: 15px; /* Borda arredondada */
   
 }
@@ -49,7 +67,7 @@
 
 /* Estilo para o link do menu no hover */
 .navbar-nav .nav-item .nav-link:hover {
-  color: #fff; /* Cor branca durante o hover */
+  color: #fff; /* Amarelo - cor do destaque */
 }
 
 .menu-item {
@@ -74,16 +92,17 @@ header {
 }
 
 .navbar-toggler {
-  background-color: #fff; /* Cor de fundo do botão hambúrguer */
+  background-color:  #ffc107; /* Amarelo - cor do destaque */
+
 }
 
 .navbar-toggler-icon {
-  background-color: #fff; /* Cor do ícone do botão hambúrguer */
+  background-color:  #ffc107; /* Amarelo - cor do destaque */
 }
 
 
 .custom-navbar {
-  background: #003077;  
+  background-color: #003c71; /* Azul escuro - cor do Arquivo Nacional */
 }
 
 .parallax-sobre {
@@ -159,4 +178,34 @@ header {
   text-align: justify;
 }
 
+.footer-arquivo {
+  background-color: #003c71; /* Azul escuro - cor do Arquivo Nacional */
+  color: #fff; /* Texto branco */
+  padding: 50px 0;
+  text-align: center; /* Centralizar o conteúdo */
+}
 
+.footer-arquivo h3 {
+  color: #ffc107; /* Amarelo - cor do destaque */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-arquivo p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-arquivo a {
+  color: #ffc107; /* Amarelo - cor dos links */
+}
+
+.footer-arquivo a:hover {
+  text-decoration: none;
+  color: #ff9800; /* Amarelo mais escuro - cor ao passar o mouse */
+}
+
+.footer-arquivo p.copyright {
+  margin-top: 30px; /* Espaçamento superior */
+  font-size: 14px;
+}

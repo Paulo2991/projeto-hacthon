@@ -49,19 +49,26 @@
 
 
   <div class="card text-bg-dark text-image-cabecalho">
-    <img src="img/imagemfundo.jpg" class="img-fluid fade-in" alt="...">
+    <div class="image-container">
+      <img src="img/imagemfundo.jpg" class="img-fluid fade-in" alt="...">
+      <div class="overlay"></div>
+    </div>
     <div class="card-img-overlay h-100%">
       <div class="mask fade-in text-image-cabecalho d-flex flex-column align-items-center justify-content-center">
         <h3 class="card-title text-image-cabecalho" style="margin-top: 90px;">
           <span class="text-anim"></span>
-        </h3> <br> <br>
+        </h3>
+        <br>
+        <br>
         <h4 class="card-text text-image-cabecalho" style="margin-bottom: 30px;">
           <span class="text-anim"></span>
         </h4>
-        <button class="btn btn-primary">Navegar</button> <!-- Botão para navegar -->
       </div>
     </div>
   </div>
+  
+
+
 
   <script>
     function typeText(selector, text, speed) {
@@ -78,10 +85,7 @@
     // Chame a função para o título
     typeText('.card-title', 'Desvendando o Passado: Aprenda no Arquivo Nacional', 100);
 
-    // Aguarde um intervalo antes de chamar a função para o subtítulo
-    setTimeout(function () {
-      typeText('.card-text', 'Mergulhe em uma jornada fascinante através da história e descubra os segredos guardados nas páginas do tempo.', 100);
-    }, 5000); // Aguarda 5 segundos antes de começar o subtítulo
+    
   </script>
 
 
@@ -90,8 +94,7 @@
 
   <div class="container text-center container-header">
     <div class="header" style="margin-top: 30px;">
-      <h2  style="margin-bottom: 30px;">Desvendando o Passado: Aprenda no Arquivo Nacional
-      </h2>
+      
       <h3 style="margin-bottom: 30px;">Mergulhe em uma jornada fascinante através da história e descubra os segredos guardados nas páginas do tempo.
       </h3>
     </div>
@@ -108,7 +111,7 @@
         <div class="card-formacoes bg-custom">
           <div class="card-body text-center">
 
-            <h5 class="card-title"><strong>Segredos Revelados: As Histórias Ocultas do Arquivo Nacional</strong></h5>
+            <h5 class="card-title"><strong> As Histórias Ocultas do Arquivo Nacional</strong></h5>
             <a href="/pages/formacoes_full_stack.html"><img class="card-img-top img-fluid" src="img/historias-ocultas.jpg" alt="Histórias Ocultas" style="margin-bottom:10px;"></a>
             <div class="text-center" >
               <a href="/pages/formacoes_full_stack.html" class="btn btn-warning align-items-center m-2 btn-degrade btn-responsive" role="button" rel="nofollow" type="button">Veja Mais</a>
@@ -121,7 +124,7 @@
       <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="card-formacoes bg-custom">
           <div class="card-body text-center">
-            <h5 class="card-title"><strong>Desvendando o Passado: Relatos Surpreendentes do Arquivo Nacional
+            <h5 class="card-title"><strong>Relatos Surpreendentes do Arquivo Nacional
             </strong></h5>
             <a href="#"><img class="card-img-top img-fluid" src="img/passados-relatados.jpg" alt="Tesouros Inesqueciveis" style="margin-bottom:10px;"></a>
             <div class="text-center">
@@ -134,7 +137,7 @@
       <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="card-formacoes bg-custom">
           <div class="card-body text-center">
-            <h5 class="card-title"><strong>Tesouros Esquecidos: As Pérolas Documentais do Arquivo Nacio</strong></h5>
+            <h5 class="card-title"><strong> As Pérolas Documentais do Arquivo Nacional</strong></h5>
             <a href="/pages/formacoes_ux_ul.html"><img class="card-img-top img-fluid" src="img/tesouros-inesqueciseis.jpg" alt="Formação Ux/Ul com Certificado" style="margin-bottom:10px;"></a>
             <div class="text-center">
               <a href="/pages/formacoes_ux_ul.html" class="btn btn-warning align-items-center m-2 btn-degrade btn-responsive" role="button" rel="nofollow" type="button">Veja Mais</a>
@@ -151,7 +154,7 @@
             <h5 class="card-title"><strong>O que é arquivo</strong></h5>
             <a href="/pages/formacoes_dba.html"><img class="card-img-top img-fluid" src="img/dba.jpg" alt="Formação em DBA com Certificado" style="margin-bottom:10px;"></a>
             <div class="text-center">
-              <a href="/pages/formacoes_dba.html" class="btn btn-warning align-items-center m-2 btn-degrade btn-responsive" role="button" rel="nofollow" type="button">Acesse Aqui</a>
+              <a href="/pages/formacoes_dba.html" class="btn btn-warning align-items-center m-2 btn-degrade btn-responsive" role="button" rel="nofollow" type="button">Veja Mais</a>
             </div>
           </div>
         </div>
@@ -223,71 +226,32 @@
 
 
 
-
-
-  <footer class="text-light rodape" >
-    <div class="container py-3">
-      <div class="text-center mb-4 p-4">
-        <ol class="list-unstyled lista-rodape d-flex justify-content-center">
-          <li class="mb-2" style="margin-right: 20px;">Termo e Avaliações</li>
-          <li class="mb-2" style="margin-right: 20px;">Política de Privacidade</li>
-          <li class="mb-2" style="margin-right: 20px;">Contato</li>
-          <li class="mb-2" style="margin-right: 20px;">Atendimento por WhatsApp</li>
-          <li class="mb-2" style="margin-right: 10px;">FAQ (Perguntas Frequentes)</li>
-        </ol>
-
-        <p class="mt-4">Curso Online Ltda - Todos os direitos reservados<br>CNPJ: 00.000.000./0000-00 Avenida 348 1306, Vila- Leopoldina - São Paulo SP</p>
-
-        <div class=" logotipo text-center align-items-center">
-          <img src="/img/logo-branco.png" width="200" class="mb-2" alt="Logotipo">
+  <footer class="footer-arquivo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>Sobre o Arquivo Nacional</h3>
+                <p>O Arquivo Nacional é uma instituição pública responsável pela gestão, preservação e acesso aos documentos arquivísticos produzidos pelo Poder Executivo Federal brasileiro.</p>
+            </div>
+           
         </div>
-
-        <div class="d-flex justify-content-center align-items-center">
-          <ul class="list-unstyled d-flex" style="margin: 0; padding: 0;">
-            <li class="rodape__item-midias-sociais mb-4 mr-4">
-              <a href="https://m.facebook.com/Biteducacursos">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li class="rodape__item-midias-sociais mb-4 mr-4">
-              <a href="https://www.google.com/url?source=meet&sa=D&q=https%3A%2F%2Finstagram.com%2Fbiteducacursos%3Figshid%3DYTQwZjQ0NmI0OA%3D%3D&hl=pt-BR">
-                <i class="fab fa-instagram-square"></i>
-              </a>
-            </li>
-            <li class="rodape__item-midias-sociais mb-4 mr-4">
-              <a href="https://www.linkedin.com/in/rduartedelima/">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="rodape__item-midias-sociais mb-4 mr-4">
-              <a href="https://www.youtube.com/channel/UC5TvpjArLEoJnn5V5fG9chQ">
-                <i class="fab fa-youtube-square"></i>
-              </a>
-            </li>
-            <li class="rodape__item-midias-sociais mb-4">
-              <a href="https://api.whatsapp.com/send?phone=5511941616806">
-                <i class="fab fa-whatsapp-square"></i>
-              </a>
-            </li>
-          </ul>
+         <div class="row">
+            <div class="col-lg-12 text-center">
+                <p>&copy; 2024 Arquivo Nacional. Todos os direitos reservados.</p>
+            </div>
         </div>
-        <p>&copy; 2023 Copyright: Todos os direitos reservados</p>
-      </div>
     </div>
-  </footer>
+</footer>
+
+
+ 
+      
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script>
-   $(document).ready(function() {
-     $("#toggleSearch").click(function() {
-      $("#searchInput").toggleClass("hidden");
-    });
-   });
- </script>
-
+ 
 
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
